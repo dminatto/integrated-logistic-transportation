@@ -1,13 +1,14 @@
-﻿
+﻿using Domain.Entities;
+
 namespace admin.domain.Entities
 {
-    public class Customer
+    public class Customer : BaseEntity
     {
-        public int idCustomer { get; set; }
         public string nameCustomer { get; set; }
         public string emailCustomer { get; set; }
         public string cpfCustomer { get; set; }
         public int phoneCustomer { get; set; }
+        public int cepCustomer { get; set; }
         public Country countryCustomer { get; set; }
         public State stateCustomer { get; set; }
         public string aderessCustomer { get; set; }

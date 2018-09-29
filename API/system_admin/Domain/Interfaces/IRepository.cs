@@ -1,18 +1,15 @@
-﻿using System;
+﻿using Domain.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace admin.domain.Interfaces
 {
-    public interface IRepository<T> : IDisposable
+    public interface IRepository<T> where T : BaseEntity
     {
         void insert(T obj);
 
         void update(T obj);
 
-        void remove(T obj);
+        void delete(int id);
 
         T select(int id);
 

@@ -1,0 +1,6 @@
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.services\bin\Debug\netcoreapp2.1\admin.services.deps.json
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.services\bin\Debug\netcoreapp2.1\admin.services.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.services\obj\Debug\netcoreapp2.1\admin.services.csprojResolveAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.services\obj\Debug\netcoreapp2.1\admin.services.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.services\obj\Debug\netcoreapp2.1\admin.services.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.services\obj\Debug\netcoreapp2.1\admin.services.AssemblyInfo.cs

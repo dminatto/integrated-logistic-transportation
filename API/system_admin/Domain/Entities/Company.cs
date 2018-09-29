@@ -1,8 +1,9 @@
-﻿namespace admin.domain.Entities
+﻿using Domain.Entities;
+
+namespace admin.domain.Entities
 {
-    public class Company
+    public class Company : BaseEntity
     {
-        public int idCompany { get; set; }
         public int cnpjCompany { get; set; }
         public int stateRegistrationCompany { get; set; }
         public string nameCompany { get; set; }

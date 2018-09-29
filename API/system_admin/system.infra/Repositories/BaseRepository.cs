@@ -1,44 +1,42 @@
 ﻿using System.Collections.Generic;
 using admin.domain.Interfaces;
 using admin.infra.DAO.Context;
-using Microsoft.EntityFrameworkCore;
+using Domain.Entities;
+using System.Linq;
+using System;
 
-namespace system.infra.Repositories
+namespace system.infra.data.Repositories
 {
-    public class BaseRepository<T> : IRepository<T>
+    public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
         private PostgressContext context = new PostgressContext();
-
-
-        public void Dispose()
-        {
-            throw new System.NotImplementedException();
-        }
-
+        
         public void insert(T obj)
         {
-            context.DbSet<T>().Add(obj);
+            context.Set<T>().Add(obj);
             context.SaveChanges();
         }
 
-        public void remove(T obj)
+        public void delete(int id)
         {
-            throw new System.NotImplementedException();
+          //  context.Set<T>().Remove(SelectById(id));
+            //context.SaveChanges();
         }
 
         public T select(int id)
         {
-            throw new System.NotImplementedException();
+            return context.Set<T>().Find(id);
         }
 
         public IList<T> selectAll()
         {
-            throw new System.NotImplementedException();
+            return context.Set<T>().ToList();
         }
 
         public void update(T obj)
         {
-            throw new System.NotImplementedException();
+            context.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            context.SaveChanges();
         }
     }
 }

@@ -15,7 +15,7 @@ namespace system.infra.DAO.Mapping
         {
             builder.ToTable("state");
 
-            builder.HasKey(c => c.idState);
+            builder.HasKey(c => c.Id);
 
             builder.Property(c => c.nameState)
                    .IsRequired();

@@ -15,7 +15,7 @@ namespace system.infra.DAO.Mapping
         {
             builder.ToTable("user_map");
 
-            builder.HasKey(c => c.idUserProfile);
+            builder.HasKey(c => c.Id);
 
             builder.Property(c => c.nameUserProfile)
                    .IsRequired();

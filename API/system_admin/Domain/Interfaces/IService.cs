@@ -1,13 +1,10 @@
-﻿using FluentValidation;
-using System;
+﻿using Domain.Entities;
+using FluentValidation;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace admin.domain.Interfaces
 {
-    public interface IService<T>
+    public interface IService<T> where T : BaseEntity
     {
         T post<V>(T obj) where V : AbstractValidator<T>;
        

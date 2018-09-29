@@ -15,7 +15,7 @@ namespace system.infra.DAO.Mapping
         {
             builder.ToTable("company_partner");
 
-            builder.HasKey(c => c.idCompanyPartner);
+            builder.HasKey(c => c.Id);
 
             builder.Property(c => c.cnpjCompanyPartner)
                    .IsRequired();
@@ -32,10 +32,10 @@ namespace system.infra.DAO.Mapping
             builder.Property(c => c.cepCompanyPartner)
                    .IsRequired();
 
-            builder.Property(c => c.countryCompanyPartner.idCountry)
+            builder.Property(c => c.countryCompanyPartner.Id)
                    .IsRequired();
 
-            builder.Property(c => c.stateCompanyPartner.idState)
+            builder.Property(c => c.stateCompanyPartner.Id)
                    .IsRequired();
 
             builder.Property(c => c.cityCompanyPartner)

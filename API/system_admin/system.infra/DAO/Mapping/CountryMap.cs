@@ -15,7 +15,7 @@ namespace system.infra.DAO.Mapping
         {
             builder.ToTable("country");
 
-            builder.HasKey(c => c.idCountry);
+            builder.HasKey(c => c.Id);
 
             builder.Property(c => c.nameCountry)
                    .IsRequired();

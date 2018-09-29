@@ -1,4 +1,5 @@
-﻿
+﻿using Domain.Entities;
+
 namespace admin.domain.Entities
 {
     public enum TypeCompany
@@ -14,9 +15,8 @@ namespace admin.domain.Entities
         OTHERS = 9
     };
 
-    public class CompanyPartner
+    public class CompanyPartner : BaseEntity
     {
-        public int idCompanyPartner { get; set; }
         public int cnpjCompanyPartner { get; set; }
         public int stateRegistrationCompanyPartner { get; set; }
         public string nameCompanyPartner { get; set; }

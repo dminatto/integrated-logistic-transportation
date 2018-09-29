@@ -1,9 +1,9 @@
-﻿
+﻿using Domain.Entities;
+
 namespace admin.domain.Entities
 {
-    public class Country
+    public class Country : BaseEntity
     {
-        public int idCountry { get; set; }
         public string nameCountry { get; set; }
     }
 }

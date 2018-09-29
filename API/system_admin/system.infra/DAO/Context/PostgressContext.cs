@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using admin.domain.Entities;
 using system.infra.DAO.Mapping;
+using System;
 
 namespace admin.infra.DAO.Context
 {

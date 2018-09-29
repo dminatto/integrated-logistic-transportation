@@ -1,10 +1,5 @@
 ﻿using admin.domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace system.infra.DAO.Mapping
@@ -15,7 +10,7 @@ namespace system.infra.DAO.Mapping
         {
             builder.ToTable("user");
 
-            builder.HasKey(c => c.idUser);
+            builder.HasKey(c => c.Id);
 
             builder.Property(c => c.nameUser)
                    .IsRequired();
