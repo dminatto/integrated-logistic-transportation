@@ -63,5 +63,15 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\shipping.domain\shipping.domain.csproj">
+      <Project>{c318fb1a-4013-4dc3-9982-0fe9769e636b}</Project>
+      <Name>shipping.domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\shipping.infra.data\shipping.infra.data.csproj">
+      <Project>{630C8159-5DFC-42C1-9A5A-6CF52E8C8A7E}</Project>
+      <Name>shipping.infra.data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

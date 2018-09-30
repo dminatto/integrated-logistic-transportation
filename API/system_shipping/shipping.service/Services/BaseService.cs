@@ -11,7 +11,7 @@ namespace shipping.service.Services
     {
         private BaseRepository<T> repository = new BaseRepository<T>();
 
-        public void delete(int id)
+        public void Delete(int id)
         {
             if (id == 0)
                 throw new ArgumentException("O ID não pode ser 0");
@@ -19,7 +19,7 @@ namespace shipping.service.Services
             repository.delete(id);
         }
 
-        public T get(int id)
+        public T Get(int id)
         {
             if (id == 0)
                 throw new ArgumentException("O ID não pode ser 0");
@@ -27,9 +27,9 @@ namespace shipping.service.Services
             return repository.select(id);
         }
 
-        public IList<T> get() => repository.selectAll();
+        public IList<T> Get() => repository.selectAll();
 
-        public T post<V>(T obj) where V : AbstractValidator<T>
+        public T Post<V>(T obj) where V : AbstractValidator<T>
         {
             Validate(obj, Activator.CreateInstance<V>());
 
@@ -37,7 +37,7 @@ namespace shipping.service.Services
             return obj;
         }
 
-        public T put<V>(T obj) where V : AbstractValidator<T>
+        public T Put<V>(T obj) where V : AbstractValidator<T>
         {
             Validate(obj, Activator.CreateInstance<V>());
 

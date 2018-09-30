@@ -6,14 +6,14 @@ namespace shipping.domain.Interfaces
 {
     public interface IService<T> where T : BaseEntity
     {
-        T post<V>(T obj) where V : AbstractValidator<T>;
+        T Post<V>(T obj) where V : AbstractValidator<T>;
 
-        T put<V>(T obj) where V : AbstractValidator<T>;
+        T Put<V>(T obj) where V : AbstractValidator<T>;
 
-        void delete(int id);
+        void Delete(int id);
 
-        T get(int id);
+        T Get(int id);
 
-        IList<T> get();
+        IList<T> Get();
     }
 }

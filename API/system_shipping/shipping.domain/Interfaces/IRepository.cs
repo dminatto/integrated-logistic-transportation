@@ -9,14 +9,14 @@ namespace shipping.domain.Interfaces
 {
     public interface IRepository<T> where T : BaseEntity
     {
-        void insert(T obj);
+        void Insert(T obj);
 
-        void update(T obj);
+        void Update(T obj);
 
-        void delete(int id);
+        void Delete(int id);
 
-        T select(int id);
+        T Select(int id);
 
-        IList<T> selectAll();
+        IList<T> SelectAll();
     }
 }
