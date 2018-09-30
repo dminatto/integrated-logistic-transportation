@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\admin.d\admin.domain.csproj" />
+    <ProjectReference Include="..\admin.domain\admin.domain.csproj" />
     <ProjectReference Include="..\admin.infra\admin.infra.data.csproj" />
   </ItemGroup>
 

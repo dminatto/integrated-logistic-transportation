@@ -5260,15 +5260,28 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "admin.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "8.0.100"
+        },
+        "compile": {
+          "bin/placeholder/admin.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/admin.domain.dll": {}
+        }
+      },
       "admin.infra.data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "C:\\Users\\danie\\Documents\\GitHub\\integrated-logistic-transportation\\API\\system_admin\\admin.d\\admin.domain.csproj": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.4",
           "Microsoft.EntityFrameworkCore.Design": "2.1.3",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.1.2",
+          "admin.domain": "1.0.0",
           "runtime.win-x64.Microsoft.NETCore.App": "2.1.4"
         },
         "compile": {
@@ -5282,8 +5295,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "C:\\Users\\danie\\Documents\\GitHub\\integrated-logistic-transportation\\API\\system_admin\\admin.d\\admin.domain.csproj": "1.0.0",
           "FluentValidation.AspNetCore": "8.0.100",
+          "admin.domain": "1.0.0",
           "admin.infra.data": "1.0.0"
         },
         "compile": {
@@ -12859,6 +12872,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "admin.domain/1.0.0": {
+      "type": "project",
+      "path": "../admin.domain/admin.domain.csproj",
+      "msbuildProject": "../admin.domain/admin.domain.csproj"
+    },
     "admin.infra.data/1.0.0": {
       "type": "project",
       "path": "../admin.infra/admin.infra.data.csproj",
@@ -12883,9 +12901,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Users\\danie\\Documents\\GitHub\\integrated-logistic-transportation\\API\\system_admin\\admin.application\\admin.application.csproj",
       "projectName": "admin.application",
@@ -12925,15 +12940,15 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.1",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.1",
+            "version": "[2.1.1, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
@@ -12946,15 +12961,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Não é possível encontrar o projeto 'C:\\Users\\danie\\Documents\\GitHub\\integrated-logistic-transportation\\API\\system_admin\\admin.d\\admin.domain.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
-      "libraryId": "C:\\Users\\danie\\Documents\\GitHub\\integrated-logistic-transportation\\API\\system_admin\\admin.d\\admin.domain.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    },
     {
       "code": "NU1605",
       "level": "Error",
