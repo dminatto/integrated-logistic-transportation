@@ -66,17 +66,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\Context\DataContext.cs" />
+    <Compile Include="DAO\Mapping\HelpDeskMap.cs" />
+    <Compile Include="DAO\Mapping\InteractionTicketMap.cs" />
+    <Compile Include="DAO\Mapping\TicketMap.cs" />
     <Compile Include="DAO\Migration\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="UoW\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DAO\Mapping\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\..\Domain\sac.domain\sac.domain.csproj">
       <Project>{398B1B28-CF27-473F-8FC1-D4E5031AE76E}</Project>

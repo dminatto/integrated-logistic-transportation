@@ -4,7 +4,7 @@ using System;
 
 namespace sac.service.Validators
 {
-    public class TicketValidator : AbstractValidator<Tikcet>
+    public class TicketValidator : AbstractValidator<Ticket>
     {
         public TicketValidator()
         {

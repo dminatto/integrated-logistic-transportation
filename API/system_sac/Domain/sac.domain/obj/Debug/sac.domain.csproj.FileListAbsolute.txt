@@ -1,0 +1,13 @@
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\sac.domain.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\sac.domain.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\FluentValidation.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\System.ValueTuple.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\FluentValidation.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\bin\Debug\System.ValueTuple.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\obj\Debug\sac.domain.csprojAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\obj\Debug\sac.domain.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\obj\Debug\sac.domain.csproj.CopyComplete
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\obj\Debug\sac.domain.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Domain\sac.domain\obj\Debug\sac.domain.pdb

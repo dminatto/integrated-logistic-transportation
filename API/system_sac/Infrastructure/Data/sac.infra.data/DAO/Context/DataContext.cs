@@ -9,7 +9,7 @@ namespace sac.infra.data.DAO.Context
     class DataContext : DbContext
     {
         public DbSet<HelpDesk> HelpDesk { get; set; }
-        public DbSet<Tikcet> Ticket { get; set; }
+        public DbSet<Ticket> Ticket { get; set; }
         public DbSet<InteractionTicket> InteractionTicket { get; set; }
 
         public DataContext() : base("DefaultConnection")

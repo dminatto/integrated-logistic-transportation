@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace sac.infra.data.DAO.Mapping
 {
-    public class TicketMap : EntityTypeConfiguration<Tikcet>
+    public class TicketMap : EntityTypeConfiguration<Ticket>
     {
         public TicketMap()
         {

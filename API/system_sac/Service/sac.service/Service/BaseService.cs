@@ -7,7 +7,7 @@ using sac.infra.data.Repositories;
 
 namespace sac.service.Service
 {
-    public class BaseService<T> : IService<T> where T : BaseEntity
+    public abstract class BaseService<T> : IService<T> where T : BaseEntity
     {
         private BaseRepository<T> repository = new BaseRepository<T>();
 
