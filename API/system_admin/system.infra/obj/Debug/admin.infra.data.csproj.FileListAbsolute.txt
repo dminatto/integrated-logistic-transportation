@@ -1,3 +1,0 @@
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\system.infra\obj\Debug\admin.infra.data.csprojResolveAssemblyReference.cache
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\system.infra\obj\Debug\admin.infra.data.csproj.system.infra.dll.config
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\system.infra\obj\Debug\admin.infra.data.csproj.CoreCompileInputs.cache

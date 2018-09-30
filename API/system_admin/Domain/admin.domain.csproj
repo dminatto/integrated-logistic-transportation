@@ -374,6 +374,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\Company.cs" />
     <Compile Include="Entities\CompanyPartner.cs" />
     <Compile Include="Entities\Country.cs" />
@@ -385,9 +386,7 @@
     <Compile Include="Interfaces\IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Service\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />

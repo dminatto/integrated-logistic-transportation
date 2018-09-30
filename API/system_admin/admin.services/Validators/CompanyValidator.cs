@@ -43,11 +43,11 @@ namespace admin.services.Validators
                 .NotNull().WithMessage("É necessário informar a cidade da empresa!")
                 .NotEmpty().WithMessage("É necessário informar a cidade da empresa!");
 
-            RuleFor(c => c.stateCompany.Id)
+            RuleFor(c => c.stateCompany)
                 .NotNull().WithMessage("É necessário informar o estado da empresa!")
                 .NotEmpty().WithMessage("É necessário informar o estado da empresa!");
 
-            RuleFor(c => c.countryCompany.Id)
+            RuleFor(c => c.countryCompany)
                 .NotNull().WithMessage("É necessário informar o pais da empresa!")
                 .NotEmpty().WithMessage("É necessário informar o pais da empresa!");
         }

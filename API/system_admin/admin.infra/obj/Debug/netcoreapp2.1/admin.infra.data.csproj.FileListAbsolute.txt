@@ -1,0 +1,13 @@
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\bin\Debug\netcoreapp2.1\admin.infra.data.deps.json
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\bin\Debug\netcoreapp2.1\admin.infra.data.runtimeconfig.json
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\bin\Debug\netcoreapp2.1\admin.infra.data.runtimeconfig.dev.json
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\bin\Debug\netcoreapp2.1\admin.infra.data.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\bin\Debug\netcoreapp2.1\admin.infra.data.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\bin\Debug\netcoreapp2.1\admin.domain.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\bin\Debug\netcoreapp2.1\admin.domain.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\obj\Debug\netcoreapp2.1\admin.infra.data.csprojResolveAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\obj\Debug\netcoreapp2.1\admin.infra.data.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\obj\Debug\netcoreapp2.1\admin.infra.data.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\obj\Debug\netcoreapp2.1\admin.infra.data.AssemblyInfo.cs
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\obj\Debug\netcoreapp2.1\admin.infra.data.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_admin\admin.infra\obj\Debug\netcoreapp2.1\admin.infra.data.pdb

@@ -39,7 +39,7 @@ namespace admin.services.Validators
                 .NotNull().WithMessage("É necessário informar a cidade do cliente!")
                 .NotEmpty().WithMessage("É necessário informar a cidade do cliente!");
 
-            RuleFor(c => c.stateCustomer.Id)
+            RuleFor(c => c.stateCustomer)
                 .NotNull().WithMessage("É necessário informar o estado do cliente!")
                 .NotEmpty().WithMessage("É necessário informar o estado do cliente!");
 
