@@ -6,7 +6,7 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace sac.infra.data.DAO.Context
 {
-    class DataContext : DbContext
+    public class DataContext : DbContext
     {
         public DbSet<HelpDesk> HelpDesk { get; set; }
         public DbSet<Ticket> Ticket { get; set; }
