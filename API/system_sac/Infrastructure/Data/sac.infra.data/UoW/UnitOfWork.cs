@@ -4,7 +4,7 @@ using System;
 
 namespace sac.infra.data.UoW
 {
-    class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly DataContext _context;
         private bool _disposed;
@@ -41,7 +41,5 @@ namespace sac.infra.data.UoW
             }
             _disposed = true;
         }
-
-
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using sac.application.AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,7 @@ namespace sac.WebApi
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            AutoMapperConfig.RegisterMappings();
         }
     }
 }

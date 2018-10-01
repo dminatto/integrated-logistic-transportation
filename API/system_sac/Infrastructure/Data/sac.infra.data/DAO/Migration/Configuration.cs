@@ -1,5 +1,4 @@
-﻿
-using sac.infra.data.DAO.Context;
+﻿using sac.infra.data.DAO.Context;
 using System.Data.Entity.Migrations;
 
 namespace sac.infra.data.DAO.Migration

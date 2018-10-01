@@ -17,10 +17,6 @@ namespace sac.application.AppServices
     {
         private readonly TicketService _tiketService;
 
-        public TicketAppService()
-        {
-        }
-
         public TicketAppService(IUnitOfWork uow, TicketService TicketService) : base(uow)
         {
             _tiketService = TicketService;
