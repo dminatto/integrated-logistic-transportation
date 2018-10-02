@@ -3,48 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{8287FDDE-32C0-453F-85EB-A9D2BBF944A4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{90E618D4-8669-4C1F-B855-A2F5E66B8C50}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{41A6FBCC-6545-4CBD-9A6A-6034DC0C92CA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{ADF2FDAF-A49C-48F1-AB52-9689F491E9DF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2DC9C323-DA0D-4A22-8612-6177F1651516}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delivery.logistics.domain", "Domain\delivery.logistics.domain\delivery.logistics.domain.csproj", "{F122BC98-373A-4FB7-A437-08E92522315D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delivery.logistics.infra", "Infrastructure\delivery.logistics.infra\delivery.logistics.infra.csproj", "{9A495FD6-B9CA-4FBE-B597-568ABE7D6EF4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delivery.logistics.service", "Service\delivery.logistics.service\delivery.logistics.service.csproj", "{425A366F-994D-400B-B324-F74BB24B935A}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F122BC98-373A-4FB7-A437-08E92522315D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F122BC98-373A-4FB7-A437-08E92522315D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F122BC98-373A-4FB7-A437-08E92522315D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F122BC98-373A-4FB7-A437-08E92522315D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A495FD6-B9CA-4FBE-B597-568ABE7D6EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A495FD6-B9CA-4FBE-B597-568ABE7D6EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A495FD6-B9CA-4FBE-B597-568ABE7D6EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A495FD6-B9CA-4FBE-B597-568ABE7D6EF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{425A366F-994D-400B-B324-F74BB24B935A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{425A366F-994D-400B-B324-F74BB24B935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{425A366F-994D-400B-B324-F74BB24B935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{425A366F-994D-400B-B324-F74BB24B935A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F122BC98-373A-4FB7-A437-08E92522315D} = {41A6FBCC-6545-4CBD-9A6A-6034DC0C92CA}
-		{9A495FD6-B9CA-4FBE-B597-568ABE7D6EF4} = {ADF2FDAF-A49C-48F1-AB52-9689F491E9DF}
-		{425A366F-994D-400B-B324-F74BB24B935A} = {2DC9C323-DA0D-4A22-8612-6177F1651516}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF4DD59F-AA70-41BD-9786-C3C3CEF0C628}

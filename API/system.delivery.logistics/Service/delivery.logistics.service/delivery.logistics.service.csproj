@@ -55,23 +55,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\BaseService.cs" />
-    <Compile Include="Validators\DeliveryOrderValidator.cs" />
-    <Compile Include="Validators\DeliveryProgressValidator.cs" />
-    <Compile Include="Validators\FeedbackValidator.cs" />
-    <Compile Include="Validators\LocationTravelValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\delivery.logistics.domain\delivery.logistics.domain.csproj">
       <Project>{f122bc98-373a-4fb7-a437-08e92522315d}</Project>
       <Name>delivery.logistics.domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Infrastructure\delivery.logistics.infra\delivery.logistics.infra.csproj">
-      <Project>{9a495fd6-b9ca-4fbe-b597-568abe7d6ef4}</Project>
-      <Name>delivery.logistics.infra</Name>
-    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Service\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
