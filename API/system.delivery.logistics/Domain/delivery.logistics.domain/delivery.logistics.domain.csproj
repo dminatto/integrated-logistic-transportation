@@ -62,15 +62,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\CollectionOrder.cs" />
+    <Compile Include="Dto\DeliveryItens.cs" />
+    <Compile Include="Dto\ReceivingAddress.cs" />
+    <Compile Include="Dto\RouteDelivery.cs" />
+    <Compile Include="Dto\TravelAgenda.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\DeliveryOrder.cs" />
+    <Compile Include="Entities\DeliveryProgress.cs" />
+    <Compile Include="Entities\Feedback.cs" />
+    <Compile Include="Entities\LocationTravel.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IService.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dto\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
