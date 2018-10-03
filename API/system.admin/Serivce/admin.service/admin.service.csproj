@@ -56,11 +56,14 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BaseService.cs" />
+    <Compile Include="Validator\AddressValidator.cs" />
+    <Compile Include="Validator\CityValidator.cs" />
     <Compile Include="Validator\CompanyPartnerValidator.cs" />
     <Compile Include="Validator\CompanyValidator.cs" />
     <Compile Include="Validator\CountryValidator.cs" />
     <Compile Include="Validator\CustomerValidator.cs" />
     <Compile Include="Validator\StateValidador.cs" />
+    <Compile Include="Validator\UserPermissionsValidator.cs" />
     <Compile Include="Validator\UserProfileValidator.cs" />
     <Compile Include="Validator\UserValidator.cs" />
   </ItemGroup>

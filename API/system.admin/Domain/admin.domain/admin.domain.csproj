@@ -54,13 +54,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\Billing.cs" />
+    <Compile Include="Dto\Expedition.cs" />
+    <Compile Include="Entities\Address.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\City.cs" />
     <Compile Include="Entities\Company.cs" />
     <Compile Include="Entities\CompanyPartner.cs" />
     <Compile Include="Entities\Country.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\State.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserPermissions.cs" />
     <Compile Include="Entities\UserProfile.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IService.cs" />
@@ -70,5 +75,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

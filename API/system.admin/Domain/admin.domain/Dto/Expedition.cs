@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace admin.domain.Dto
+﻿namespace admin.domain.Dto
 {
-    class Expedition
+    public class Expedition
     {
+        public int Id { get; set; }
+        public int IdOrder { get; set; }
+
     }
 }
