@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace sac.domain.Entities
+namespace sac.application.ViewModels
 {
-    public class InteractionTicket : BaseEntity
+    public class InteractionTicketViewModel
     {
         public int IdTicket { get; set; }
         public DateTime DateInteraction { get; set; }

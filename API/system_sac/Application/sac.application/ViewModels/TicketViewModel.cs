@@ -10,7 +10,7 @@
         public string TokenOrder { get; set; }
         public int CategoryTiket { get; set; }
         public int RatingTicket { get; set; }
-        // public List<InteractionTicket> Interactions { get; set; }
+        //public List<InteractionTicket> Interactions { get; set; }
         public int Interactions { get; set; }
 
     }

@@ -10,7 +10,9 @@ namespace sac.application.AutoMapper
         {
             Mapper.Initialize(cfg =>
             {
+                cfg.CreateMap<HelpDesk, HelpDeskViewModel>().ReverseMap();
                 cfg.CreateMap<Ticket, TicketViewModel>().ReverseMap();
+                cfg.CreateMap<InteractionTicket, InteractionTicketViewModel>().ReverseMap();
             });
         }
     }
