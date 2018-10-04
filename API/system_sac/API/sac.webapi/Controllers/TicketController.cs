@@ -4,8 +4,6 @@ using sac.application.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace sac.webapi.Controllers
@@ -20,31 +18,31 @@ namespace sac.webapi.Controllers
         }
 
         // POST api/ticket/add
-        public TicketViewModel Adicionar(TicketViewModel ticket)
+        public TicketViewModel Add(TicketViewModel ticket)
         {
             return _ticketAppService.Add(ticket);
         }
 
         // PUT api/ticket/atualizar
-        public TicketViewModel Atualizar(TicketViewModel ticket)
+        public TicketViewModel Update(TicketViewModel ticket)
         {
             return _ticketAppService.Update(ticket);
         }
 
         // DELETE api/ticket/del/{codigo}
-        public void ExcluirUsuario(int codigo)
+        public void Delete(int codigo)
         {
             _ticketAppService.Remove(codigo);
         }
 
         // GET api/ticket/{codigo}
-        public TicketViewModel ConsultarUsuarioPorCodigo(int codigo)
+        public TicketViewModel GetById(int codigo)
         {
             return _ticketAppService.GetById(codigo);
         }
 
         // GET api/ticket/all
-        public List<TicketViewModel> ObterTodos()
+        public List<TicketViewModel> GetAll()
         {
             return _ticketAppService.GetAll().ToList();
         }

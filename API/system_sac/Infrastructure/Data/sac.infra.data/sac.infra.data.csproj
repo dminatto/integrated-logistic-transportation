@@ -69,6 +69,8 @@
     <Compile Include="DAO\Migration\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\HelpDeskRepository.cs" />
+    <Compile Include="Repositories\InteractionTicketRepository.cs" />
     <Compile Include="Repositories\TicketRepository.cs" />
     <Compile Include="UoW\UnitOfWork.cs" />
   </ItemGroup>

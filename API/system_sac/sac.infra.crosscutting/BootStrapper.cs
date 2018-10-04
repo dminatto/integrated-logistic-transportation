@@ -16,21 +16,19 @@ namespace sac.infra.crosscutting
         {
             // App
             container.Register<ITicketAppService, TicketAppService>();
-            //container.Register<IAutorAppService, AutorAppService>();
-
-
-            //
-
+            container.Register<IInteractionTicketAppService, InteractionTicketAppService>();
+            container.Register<IHelpDeskAppService, IHelpDeskAppService>();
+            
             // Domain
             container.Register<IService<Ticket>, TicketService>();
-            //container.Register<IAutorService, AutorService>();
-            //
+            container.Register<IService<InteractionTicket>, InteractionTicketService>();
+            container.Register<IService<HelpDesk>, HelpDeskService>();
 
             // Infra Dados
             container.Register<IRepository<Ticket>, TicketRepository>();
-            //container.Register<IAutorRepository, AutorRepository>();
-            //container.Register(typeof(IRepository<T>), typeof(BaseRepository<T>));
-
+            container.Register<IRepository<InteractionTicket>, InteractionTicketRepository>();
+            container.Register<IRepository<HelpDesk>, HelpDeskRepository>();
+            
             container.Register<IUnitOfWork, UnitOfWork>();
             container.Register<DataContext>();
 

@@ -56,6 +56,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BaseService.cs" />
+    <Compile Include="Service\HelpDeskService.cs" />
+    <Compile Include="Service\InteractionTicketService.cs" />
     <Compile Include="Service\TicketService.cs" />
     <Compile Include="Validators\HelpDeskValidator.cs" />
     <Compile Include="Validators\InteractionTicketValidator.cs" />
