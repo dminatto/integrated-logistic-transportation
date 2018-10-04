@@ -97,7 +97,6 @@ C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sa
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\System.Xml.XPath.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\EntityFramework.dll
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\EntityFramework6.Npgsql.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\Npgsql.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\sac.domain.dll
@@ -107,7 +106,6 @@ C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sa
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\FluentValidation.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\sac.domain.pdb
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\EntityFramework.xml
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\EntityFramework6.Npgsql.xml
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\Npgsql.pdb
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system_sac\Infrastructure\Data\sac.infra.data\bin\Debug\Npgsql.xml

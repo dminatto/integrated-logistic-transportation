@@ -1,4 +1,5 @@
-﻿using sac.domain.Entities;
+﻿using System.Data;
+using sac.domain.Entities;
 using sac.infra.data.DAO.Mapping;
 using sac.infra.data.DAO.Migration;
 using System.Data.Entity;
@@ -12,9 +13,9 @@ namespace sac.infra.data.DAO.Context
         public DbSet<Ticket> Ticket { get; set; }
         public DbSet<InteractionTicket> InteractionTicket { get; set; }
 
-        public DataContext() : base("DefaultConnection")
+        public DataContext() : base("AppDatabaseConnectionString")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Configuration>("DefaultConnection"));
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Configuration>("AppDatabaseConnectionString"));
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
