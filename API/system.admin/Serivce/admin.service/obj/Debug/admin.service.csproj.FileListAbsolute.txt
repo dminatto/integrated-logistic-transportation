@@ -1,5 +1,3 @@
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\obj\Debug\admin.service.csprojAssemblyReference.cache
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\obj\Debug\admin.service.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\bin\Debug\admin.service.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\bin\Debug\admin.service.pdb
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\bin\Debug\admin.domain.dll
@@ -15,6 +13,8 @@ C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.ad
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\bin\Debug\FluentValidation.xml
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\bin\Debug\System.ValueTuple.xml
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\bin\Debug\EntityFramework.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\obj\Debug\admin.service.csprojAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\obj\Debug\admin.service.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\obj\Debug\admin.service.csproj.CopyComplete
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\obj\Debug\admin.service.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Serivce\admin.service\obj\Debug\admin.service.pdb

@@ -1,5 +1,3 @@
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\obj\Debug\admin.infra.data.csprojAssemblyReference.cache
-C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\obj\Debug\admin.infra.data.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\bin\Debug\admin.infra.data.dll.config
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\bin\Debug\admin.infra.data.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\bin\Debug\admin.infra.data.pdb
@@ -117,6 +115,8 @@ C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.ad
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\bin\Debug\System.ValueTuple.xml
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\bin\Debug\FluentValidation.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\obj\Debug\admin.infra.data.csprojAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\obj\Debug\admin.infra.data.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\obj\Debug\admin.infra.data.csproj.CopyComplete
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\obj\Debug\admin.infra.data.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Infrastrutcture\Data\admin.infra.data\obj\Debug\admin.infra.data.pdb
