@@ -19,8 +19,13 @@ namespace admin.infra.crosscutting
         public static void RegisterServices(Container container)
         {
             // App
-            //container.Register<ITicketAppService, TicketAppService>();
-            //container.Register<IInteractionTicketAppService, InteractionTicketAppService>();
+     //       container.Register<IAppService, TicketAppService>();
+            //container.Register<AppService, InteractionTicketAppService>();
+            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
+            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
+            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
+            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
+            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
             //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
 
             // Domain

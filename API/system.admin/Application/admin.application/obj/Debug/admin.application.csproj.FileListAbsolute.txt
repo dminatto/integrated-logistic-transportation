@@ -1,0 +1,16 @@
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\admin.application.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\admin.application.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\admin.domain.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\AutoMapper.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\System.ValueTuple.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\FluentValidation.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\admin.domain.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\AutoMapper.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\AutoMapper.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\System.ValueTuple.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\bin\Debug\FluentValidation.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\obj\Debug\admin.application.csprojAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\obj\Debug\admin.application.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\obj\Debug\admin.application.csproj.CopyComplete
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\obj\Debug\admin.application.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\Application\admin.application\obj\Debug\admin.application.pdb
