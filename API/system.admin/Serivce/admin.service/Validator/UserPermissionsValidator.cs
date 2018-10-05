@@ -24,5 +24,4 @@ namespace admin.service.Validator
                 .NotEmpty().WithMessage("É necessário informar o nivel de permissão!");
         }
     }
-    }
 }

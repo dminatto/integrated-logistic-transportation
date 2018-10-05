@@ -31,22 +31,6 @@ namespace admin.service.Validator
                 .NotNull().WithMessage("É necessário informar o CEP do cliente!")
                 .NotEmpty().WithMessage("É necessário informar o CEP do cliente!");
 
-            RuleFor(c => c.AderessCustomer)
-                .NotNull().WithMessage("É necessário informar o endereço do cliente!")
-                .NotEmpty().WithMessage("É necessário informar o endereço do cliente!");
-
-            RuleFor(c => c.CityCustomer)
-                .NotNull().WithMessage("É necessário informar a cidade do cliente!")
-                .NotEmpty().WithMessage("É necessário informar a cidade do cliente!");
-
-            RuleFor(c => c.StateCustomer)
-                .NotNull().WithMessage("É necessário informar o estado do cliente!")
-                .NotEmpty().WithMessage("É necessário informar o estado do cliente!");
-
-            RuleFor(c => c.DistrictCustomer)
-                .NotNull().WithMessage("É necessário informar o bairro do cliente!")
-                .NotEmpty().WithMessage("É necessário informar o bairro do cliente!");
-
             RuleFor(c => c.PhoneCustomer)
                 .NotNull().WithMessage("É necessário informar o telefone do cliente!")
                 .NotEmpty().WithMessage("É necessário informar o telefone do cliente!");

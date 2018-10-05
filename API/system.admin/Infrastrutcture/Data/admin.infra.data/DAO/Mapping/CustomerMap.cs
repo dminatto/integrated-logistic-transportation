@@ -19,21 +19,10 @@ namespace admin.infra.data.DAO.Mapping
 
             Property(c => c.PhoneCustomer).IsRequired();
 
-            Property(c => c.CountryCustomer).IsRequired();
-
-            Property(c => c.StateCustomer).IsRequired();
-
             Property(c => c.CepCustomer).IsRequired();
 
-            Property(c => c.AderessCustomer).IsRequired();
+            Property(c => c.AddressCustomer).IsRequired();
 
-            Property(c => c.ComplementCustomer).IsRequired();
-
-            Property(c => c.NumberAderessCustomer).IsRequired();
-
-            Property(c => c.CityCustomer).IsRequired();
-
-            Property(c => c.DistrictCustomer).IsRequired();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace admin.domain.Dto
+﻿using System;
+
+namespace admin.domain.Dto
 {
     public class Billing
     {

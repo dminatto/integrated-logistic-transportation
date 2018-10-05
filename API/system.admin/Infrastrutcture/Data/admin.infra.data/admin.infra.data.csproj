@@ -66,12 +66,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\Context\DataContext.cs" />
+    <Compile Include="DAO\Mapping\AddressMap.cs" />
+    <Compile Include="DAO\Mapping\CityMap.cs" />
     <Compile Include="DAO\Mapping\CompanyMap.cs" />
     <Compile Include="DAO\Mapping\CompanyPartnerMap.cs" />
     <Compile Include="DAO\Mapping\CountryMap.cs" />
     <Compile Include="DAO\Mapping\CustomerMap.cs" />
     <Compile Include="DAO\Mapping\StateMap.cs" />
     <Compile Include="DAO\Mapping\UserMap.cs" />
+    <Compile Include="DAO\Mapping\UserPermissionsMap.cs" />
     <Compile Include="DAO\Mapping\UserProfileMap.cs" />
     <Compile Include="DAO\Migration\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

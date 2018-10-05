@@ -5,22 +5,22 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("admin.infra.data"]
-[assembly: AssemblyDescription(""]
-[assembly: AssemblyConfiguration(""]
-[assembly: AssemblyCompany(""]
-[assembly: AssemblyProduct("admin.infra.data"]
-[assembly: AssemblyCopyright("Copyright ©  2018"]
-[assembly: AssemblyTrademark(""]
-[assembly: AssemblyCulture(""]
+[assembly: AssemblyTitle("admin.infra.data")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("admin.infra.data")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
 
 // Definir ComVisible como false torna os tipos neste assembly invisíveis
 // para componentes COM. Caso precise acessar um tipo neste assembly de
 // COM, defina o atributo ComVisible como true nesse tipo.
-[assembly: ComVisible(false]
+[assembly: ComVisible(false)]
 
 // O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-[assembly: Guid("01767a43-f555-438f-9d01-dd4353422422"]
+[assembly: Guid("01767a43-f555-438f-9d01-dd4353422422")]
 
 // As informações da versão de um assembly consistem nos quatro valores a seguir:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // É possível especificar todos os valores ou usar como padrão os Números de Build e da Revisão
 // usando o '*' como mostrado abaixo:
 // [assembly: AssemblyVersion("1.0.*"]
-[assembly: AssemblyVersion("1.0.0.0"]
-[assembly: AssemblyFileVersion("1.0.0.0"]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
