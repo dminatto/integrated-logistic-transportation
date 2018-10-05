@@ -9,7 +9,7 @@ using AutoMapper;
 
 namespace admin.application.AppServices
 {
-    class CustomerAppService :  ApplicationService, IAppService<CustomerViewModel, Customer>
+    public class CustomerAppService :  ApplicationService, IAppService<CustomerViewModel, Customer>
     {
         private readonly IService<Customer> _customerService;
 

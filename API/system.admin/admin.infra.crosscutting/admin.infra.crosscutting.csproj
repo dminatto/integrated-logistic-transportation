@@ -51,6 +51,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Application\admin.application\admin.application.csproj">
+      <Project>{3DB57172-A3C3-4AB5-91C3-0EF39A16C938}</Project>
+      <Name>admin.application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\admin.domain\admin.domain.csproj">
       <Project>{107432DB-E344-418C-AF4F-DE8CC43EF392}</Project>
       <Name>admin.domain</Name>

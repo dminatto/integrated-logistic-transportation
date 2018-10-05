@@ -6,11 +6,14 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using admin.application.AppServices;
 using admin.domain.Entities;
 using admin.infra.data.UoW;
 using admin.infra.data.DAO.Context;
 using admin.infra.data.Repository;
 using admin.service.Service;
+using admin.application.Interfaces;
+using admin.application.ViewModels;
 
 namespace admin.infra.crosscutting
 {
@@ -19,14 +22,16 @@ namespace admin.infra.crosscutting
         public static void RegisterServices(Container container)
         {
             // App
-     //       container.Register<IAppService, TicketAppService>();
-            //container.Register<AppService, InteractionTicketAppService>();
-            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
-            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
-            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
-            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
-            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
-            //container.Register<IHelpDeskAppService, IHelpDeskAppService>();
+            container.Register<IAppService<AddressViewModel, Address>, AddressAppService>();
+            container.Register<IAppService<CityViewModel, City>, CityAppService>();
+            container.Register<IAppService<CompanyViewModel, Company>, CompanyAppService>();
+            container.Register<IAppService<CompanyPartnerViewModel, CompanyPartner>, CompanyPartnerAppService>();
+            container.Register<IAppService<CountryViewModel, Country>, CountryAppService>();
+            container.Register<IAppService<CustomerViewModel, Customer>, CustomerAppService>();
+            container.Register<IAppService<StateViewModel, State>, StateAppService>();
+            container.Register<IAppService<UserViewModel, User>, UserAppService> ();
+            container.Register<IAppService<UserPermissionsViewModel, UserPermissions>, UserPermissionsAppService> ();
+            container.Register<IAppService<UserProfileViewModel, UserProfile>, UserProfileAppService> ();
 
             // Domain
             container.Register<IService<Address>, BaseService<Address>>();

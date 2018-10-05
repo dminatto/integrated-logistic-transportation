@@ -18,3 +18,10 @@ C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.ad
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\obj\Debug\admin.infra.crosscutting.csproj.CopyComplete
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\obj\Debug\admin.infra.crosscutting.dll
 C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\obj\Debug\admin.infra.crosscutting.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\bin\Debug\admin.application.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\bin\Debug\AutoMapper.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\bin\Debug\System.ValueTuple.dll
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\bin\Debug\admin.application.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\bin\Debug\AutoMapper.pdb
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\bin\Debug\AutoMapper.xml
+C:\Users\danie\Documents\GitHub\integrated-logistic-transportation\API\system.admin\admin.infra.crosscutting\bin\Debug\System.ValueTuple.xml
