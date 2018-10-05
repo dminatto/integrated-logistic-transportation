@@ -2,6 +2,7 @@
 ~WRL0001.tmp
 ~$ojeto-arquitetural.doc
 Modulo de Controle de Expedição.asta.lock
-Debug
-obj
+\API\system.admin\Application\admin.application\obj\*
+\obj\*
+cache
 bin
